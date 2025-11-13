@@ -7,6 +7,7 @@ type Operator struct {
 	function func()
 }
 
+// GAI
 func (o *Operator) Do() {
 	fmt.Printf("运行调度 [%s] 任务\n", o.name)
 	o.function()
